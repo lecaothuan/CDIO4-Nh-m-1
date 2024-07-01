@@ -63,6 +63,7 @@
                         <div class="navbar-nav mx-auto">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a asp-controller="HangHoa" asp-action="Index" class="nav-item nav-link">Shop</a>
+                               <a asp-controller="KhachHang" asp-action="DangKy" class="nav-item nav-link">Đăng Ký</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu m-0 bg-secondary rounded-0">
@@ -108,7 +109,7 @@
         </div>
 
         @await Html.PartialAsync("_Footer")
-    </div
+    </div>
 
         <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
